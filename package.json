@@ -1,0 +1,23 @@
+{
+  "name": "codewars-katas",
+  "version": "1.0.0",
+  "description": "A repo to practice katas from Codewars and testing in Jest.",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^24.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linda-lai/codewars.git"
+  },
+  "author": "Linda Lai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linda-lai/codewars/issues"
+  },
+  "homepage": "https://github.com/linda-lai/codewars#readme"
+}

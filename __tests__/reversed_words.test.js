@@ -1,13 +1,13 @@
 const reverseWords = require('../reversed_words');
 
 describe('function to reverse words', () => {
-  test('should work with two words', () => {
+  it('should work with two words', () => {
     expect(reverseWords('hello world')).toEqual('world hello');
   });
-  test('should work for a given phrase', () => {
+  it('should work for a given phrase', () => {
     expect(reverseWords('yoda doesn\'t speak like this')).toEqual('this like speak doesn\'t yoda');
   });
-  test('should work with only one word', () => {
+  it('should work with only one word', () => {
     expect(reverseWords('foobar')).toEqual('foobar');
   });
   it('should work with another two word example', () => {

@@ -15,5 +15,5 @@ describe('returns true or false if number is a perfect square', () => {
   });
   it('should return false if the number is 26', () => {
     expect(isSquare(26)).toBe(false);
-  })
+  });
 })

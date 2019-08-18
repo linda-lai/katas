@@ -4,6 +4,7 @@
   "description": "A repo to practice katas from Codewars and testing in Jest.",
   "main": "index.js",
   "devDependencies": {
+    "eslint": "^6.1.0",
     "jest": "^24.8.0",
     "jest-junit": "^6.4.0"
   },

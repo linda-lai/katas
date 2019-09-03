@@ -10,10 +10,10 @@
 
 const DNAtoRNA = (dna) => {
   return dna.toUpperCase().split('T').join('U');
-}
+};
 
-const DNAtoRNAWithRegex = (dna) => {
+const DNAtoRNAWithRegex = (dna) => { // eslint-disable-line no-unused-vars
   return dna.toUpperCase().replace(/T/gi, 'U');
-}
+};
 
 module.exports = DNAtoRNA;

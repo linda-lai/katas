@@ -10,13 +10,15 @@ const elementAccess = (arr, i) => {
   } else {
     return undefined;
   }
-}
+};
 
-// let arr1 = [];
-// console.log(arr1[0]); // undefined
-// let arr2 = [undefined];
-// console.log(arr2[0]); // undefined
-// let arr3 = [0, 0, 0]; 
-// console.log(arr3[4]); // undefined
+/*
+let arr1 = [];
+console.log(arr1[0]); // undefined
+let arr2 = [undefined];
+console.log(arr2[0]); // undefined
+let arr3 = [0, 0, 0]; 
+console.log(arr3[4]); // undefined
+*/
 
 module.exports = elementAccess;

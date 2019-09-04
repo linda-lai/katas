@@ -1,4 +1,4 @@
-const elementAccess = require('../element-access');
+const elementAccess = require('../element_access');
 
 describe('it should return an element in an array at the given index unless null or undefined', () => {
   it('should return 0 at index 0', () => {

@@ -1,4 +1,4 @@
-var isSquareV1 = function(number) { // eslint-disable-line no-unused-vars
+const isSquareAnonymous = function(number) { // eslint-disable-line no-unused-vars
   const isSquare = number % Math.sqrt(number) === 0;
   if (isSquare || number === 0) {
     return true;
@@ -7,7 +7,7 @@ var isSquareV1 = function(number) { // eslint-disable-line no-unused-vars
   }
 };
 
-function isSquareV2(n) { // eslint-disable-line no-unused-vars
+function isSquareDeclarative(n) { // eslint-disable-line no-unused-vars
   return Math.sqrt(n) % 1 === 0;
 }
 

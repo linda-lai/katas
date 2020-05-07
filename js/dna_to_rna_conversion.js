@@ -8,11 +8,11 @@
 // DNAtoRNA("GCAT") returns ("GCAU")
 // The input string can be of arbitrary length - in particular, it may be empty. All input is guaranteed to be valid, i.e. each input string will only ever consist of 'G', 'C', 'A' and/or 'T'.
 
-const DNAtoRNA = (dna) => {
+const DNAtoRNA = dna => {
   return dna.toUpperCase().split('T').join('U');
 };
 
-const DNAtoRNAWithRegex = (dna) => { // eslint-disable-line no-unused-vars
+const DNAtoRNAWithRegex = dna => { // eslint-disable-line no-unused-vars
   return dna.toUpperCase().replace(/T/gi, 'U');
 };
 

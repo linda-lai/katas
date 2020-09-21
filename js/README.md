@@ -1,7 +1,4 @@
-# Katas
-A monorepo to practice katas from Codewars and unit testing.
-
-## JavaScript Katas
+## JavaScript
 To run JavaScript katas, change directories into the `js` folder:
 
 ```

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/linda-lai/katas/sum_array"
+	"github.com/linda-lai/katas/go/sum_array"
 )
 
 func main() {

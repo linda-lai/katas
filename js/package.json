@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/linda-lai/codewars/issues"
   },
-  "homepage": "https://github.com/linda-lai/codewars#readme"
+  "homepage": "https://github.com/linda-lai/codewars#readme",
+  "dependencies": {
+    "chai": "^4.3.4"
+  }
 }
